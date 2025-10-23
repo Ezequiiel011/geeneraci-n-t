@@ -8,7 +8,7 @@
 <body style="font-family: Arial; background-color: #f4f4f4; text-align: center;">
     <h1>¿Puedo Jubilarme?</h1>
 
-    <p>Completá los datos para saber si ya podés jubilarte 👇</p>
+    <p>Completá los datos para saber si ya podés jubilarte </p>
 
     <form id="formJubilacion">
        INDEX.HTML:
@@ -45,8 +45,8 @@
             }
 
             document.getElementById("resultado").textContent = puede
-                ? "✅ ¡Podés jubilarte!"
-                : "❌ Aún no cumplís los requisitos.";
+                ? " ¡Podés jubilarte!"
+                : " Aún no cumplís los requisitos.";
         }
     </script>
 </body>
