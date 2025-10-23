@@ -1,3 +1,5 @@
+INDEX.HTML:
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -23,9 +25,7 @@
 </body>
 </html>
 
-
-
-
+ESTILOS.CSS:
 
 .Imperio {
     background-color: red;
