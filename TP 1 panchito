@@ -1,3 +1,5 @@
+INDEX.HTML:
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,7 +18,7 @@
 </body>
 </html>
 
-
+ESTILOS.CSS:
 
 body {
     background-color: #f0f8ff;
