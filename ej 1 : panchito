@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Arte CSS: Panchito</title>
+    <link rel="stylesheet" href="panchito.css">
+</head>
+<body>
+    <h1>Arte CSS: Panchito</h1>
+    <div class="panchito">
+        <div class="cabeza"></div>
+        <div class="cuerpo"></div>
+        <div class="piernas"></div>
+        <div class="sombrero"></div>
+    </div>
+</body>
+</html>
+
+
+
+body {
+    background-color: #f0f8ff;
+    text-align: center;
+    font-family: Arial;
+}
+
+.panchito {
+    margin-top: 50px;
+}
+
+.cabeza {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50% 50% 0 0;
+    margin: 0 auto;
+}
+
+.cuerpo {
+    width: 150px;
+    height: 200px;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+.piernas {
+    width: 50px;
+    height: 150px;
+    background-color: red;
+    border-radius: 0 0 50% 50%;
+    margin: 0 auto;
+}
+
+.sombrero {
+    width: 120px;
+    height: 30px;
+    background-color: brown;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    top: -320px;
+}
